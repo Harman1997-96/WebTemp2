@@ -46,13 +46,15 @@ body {
 .content {
     position: relative;
     top: -137px;
-    left: -77px;
+    left: -139px;
+
     height: 282px;
     background-color: rgba(3, 0, 0, 0.363);
 }
-@media(max-width:600px){
+@media(min-width:1024px){
     .content{
-    left: -139px;
+    left: -77px;
+
     }
 }
 .content span {
@@ -124,26 +126,26 @@ body {
 }
 /* about */
 .about-img img{
-margin-top:30px; 
-height: 253px;
+margin-top:163px; 
+height: 85rem;
 width: 100%;
 }
-@media(min-width:768px){
+@media(min-width:1024px){
     .about-img img{
         margin-top: 163px;
-        height: 939px;
+        height: 1026px;
 
     }
 }
 .about-description{
     margin-top:163px; 
-    height: 78rem;
+    height: 85rem;
 
     background-color: #333;
 }
-@media(min-width:768px){
+@media(min-width:1024px){
     .about-description{
-    height:939px;
+    height:1026px;
 
     }
 }
@@ -162,9 +164,9 @@ width: 100%;
     font-size: 14px;
     font-weight: 600;
 }
-@media(max-width:600px){
+@media(min-width:1024px){
     .about-item h4{
-    font-size: 20px;
+    font-size: 24px;
 
     }
 }
@@ -195,29 +197,32 @@ width: 100%;
 
 .services-work{
     margin:2rem;
-    height: 310px;
+    height: 440px;
     background: #ffffff none repeat scroll 0 0;
     box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.06);
     /* padding: 30px; */
 }
-@media(min-width:600px){
+@media(min-width:1024px){
     .services-work{
-        height:234px;
+        height:300px;
 
     }
 }
 
 .service-item i{
+    margin-top: 15px;
     font-size: 60px;
     color: #ff9800;
 }
 .serivce-info{
     margin-top: -53px;
-    padding-left: 70px
+    padding-left: 70px;
+    margin-left: 56px;
+    padding-left: 8px;
 }
-@media(min-width:600px){
+@media(min-width:1024px){
     .serivce-info{
-        padding-left: 63px
+        padding-left: 7px
     }
 }
 .serivce-info h3{
@@ -270,7 +275,7 @@ a.service-more {
     margin-top: 25px;
     max-width: 205px;
 }
-@media(min-width:600px)
+@media(min-width:1024px)
 {
     .profile-img{
         height: 350px;
@@ -278,15 +283,16 @@ a.service-more {
     }
 }
 .profile-img img{
+    height: 290px;
     max-width: 236px;
     margin-left: 35px;
 }
-@media(max-width:600px)
+@media(min-width:1024px)
 {
     .profile-img img{
-        height: 290px;
+        height: 374px;
         margin-top: 101px;
-        max-width: 161px;
+        max-width: 302px;
         margin-bottom: -177px;
 
 }
@@ -302,7 +308,7 @@ a.service-more {
     height: 113px;
   background-color: #ff9900b0;    
 }
-@media(min-width:600px){
+@media(min-width:1024px){
     .seperator{
         height: 160px;
     }
@@ -321,34 +327,34 @@ a.service-more {
 }
 /* Heading */
 .section-services{
-    height: 144rem;
+    height: 78rem;
 
     background:#f9f9f9;
     
 }
-@media(min-width:768px){
+@media(min-width:1024px){
     .section-services{
-    height: 830px;
+    height: 930px;
 
     }
 }
 .section-profile{
-    height: 1690px;
+    height: 1276px;
     background:#ffff;
     margin-top: 1rem;
 }
-@media(min-width:600px){
+@media(min-width:1024px){
     .section-profile{
-    height: 1300px;
+    height: 1328px;
 
     }
 }
 .section-team{
-    height: 140rem;
+    height: 58rem;
 
     background:#f9f9f9;
 }
-@media (min-width:600px){
+@media (min-width:1024px){
     .section-team{
     height: 910px;
 
